@@ -1,0 +1,108 @@
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f6fff8;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background: linear-gradient(135deg, #56ab2f, #a8e063);
+    color: white;
+    padding: 3rem 1rem;
+}
+
+header h1 {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+main {
+    padding: 2rem 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto 2rem auto;
+    max-width: 600px;
+}
+
+ul li {
+    background: #e0ffe0;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+
+.cta-button, .about-button {
+    background: linear-gradient(135deg, #56ab2f, #a8e063);
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.cta-button:hover, .about-button:hover {
+    background-color: #4CAF50;
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    margin-top: 2rem;
+}
+
+input[type="email"] {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-right: 10px;
+    font-size: 1rem;
+    width: 250px;
+}
+
+img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#about {
+    background-color: #e6ffe6;
+    padding: 3rem 1rem;
+}
+
+#about p {
+    max-width: 700px;
+    margin: 0 auto 2rem auto;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+footer {
+    margin-top: 3rem;
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: #666;
+}
